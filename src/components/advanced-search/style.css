@@ -1,0 +1,7 @@
+.advanced-search {
+	background-color: #f69d2d;
+}
+
+.advanced-search > div > h5 {
+	cursor: pointer;
+}
