@@ -1,5 +1,6 @@
 import { FC } from 'react';
 import './styles.css';
+import trophy from '../../assets/trophy.png';
 
 interface Props {
 	name: string;
@@ -36,11 +37,7 @@ export const Item: FC<Props> = ({
 				</div>
 				<div className="trophy rounded d-flex p-2">
 					<span className="mr-2 text-light">{clanPoints}</span>
-					<img
-						src="https://clashofclans.com/blog-assets/img/clan-search/trophy.png"
-						alt="trophy"
-						className="trophy-img"
-					/>
+					<img src={trophy} alt="trophy" className="trophy-img" />
 				</div>
 			</div>
 		</div>
